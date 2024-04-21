@@ -37,7 +37,7 @@ const Index = () => {
   return (
     <div className="bg-black min-h-screen text-white font-poppins">
       <header className="flex justify-between items-center p-4">
-        <h1 className="text-3xl font-bold">I Wish</h1>
+        <h1 className="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 mx-auto">I Wish</h1>
         <div>
           <button className="bg-white text-black px-4 py-2 rounded mr-4">
             Sign Up <FaUser className="inline-block ml-2" />
