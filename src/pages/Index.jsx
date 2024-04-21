@@ -58,7 +58,7 @@ const Index = () => {
         )}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {sortedWishes.map((wish) => (
-            <div key={wish.id} className="bg-gray-900 rounded-lg p-6 relative">
+            <div key={wish.id} className="bg-black rounded-lg p-6 relative border-2 border-purple-500 shadow-lg shadow-purple-500">
               <p>{wish.text}</p>
               <button className="absolute bottom-4 right-4 text-red-500 hover:text-red-700" onClick={() => handleLike(wish.id)}>
                 <FaHeart className="text-2xl transition-transform duration-300 transform hover:scale-125" />
